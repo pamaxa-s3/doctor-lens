@@ -1,0 +1,138 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+
+._icon-arrow-down:before {
+	content: "\e900";
+}
+
+._icon-arrow-right:before {
+	content: "\e901";
+}
+
+._icon-calendar:before {
+	content: "\e902";
+}
+
+._icon-cart:before {
+	content: "\e903";
+}
+
+._icon-check-in-round:before {
+	content: "\e904";
+}
+
+._icon-close:before {
+	content: "\e905";
+}
+
+._icon-contact-lens-01:before {
+	content: "\e906";
+}
+
+._icon-cup:before {
+	content: "\e907";
+}
+
+._icon-diagnostic:before {
+	content: "\e908";
+}
+
+._icon-equipment:before {
+	content: "\e909";
+}
+
+._icon-eye:before {
+	content: "\e90a";
+}
+
+._icon-facebook:before {
+	content: "\e90b";
+}
+
+._icon-glasses:before {
+	content: "\e90c";
+}
+
+._icon-heart:before {
+	content: "\e90d";
+}
+
+._icon-instagram:before {
+	content: "\e90e";
+}
+
+._icon-lens:before {
+	content: "\e90f";
+}
+
+._icon-lens-night:before {
+	content: "\e910";
+}
+
+._icon-location:before {
+	content: "\e911";
+}
+
+._icon-night-lens:before {
+	content: "\e912";
+}
+
+._icon-play-button:before {
+	content: "\e913";
+}
+
+._icon-play-video:before {
+	content: "\e914";
+}
+
+._icon-plus:before {
+	content: "\e915";
+}
+
+._icon-plus-gradient:before {
+	content: "\e916";
+}
+
+._icon-search:before {
+	content: "\e917";
+}
+
+._icon-support:before {
+	content: "\e918";
+}
+
+._icon-telegram:before {
+	content: "\e919";
+}
+
+._icon-top-telegram:before {
+	content: "\e91a";
+}
+
+._icon-top-whatsup:before {
+	content: "\e91b";
+}
+
+._icon-vk:before {
+	content: "\e91c";
+}
+
+._icon-whatsup:before {
+	content: "\e91d";
+}
